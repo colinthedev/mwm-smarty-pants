@@ -108,7 +108,7 @@
 
 .redX {
     display: block;
-    z-index: -1;
+    z-index: 1;
     color: #F94933;
     font-size: 10rem;
     position: absolute;
@@ -132,6 +132,11 @@
 
 .introWrapper-inner {
     position: absolute;
+}
+
+.title {
+    position: relative;
+    z-index: 10;
 }
 
 .author {
